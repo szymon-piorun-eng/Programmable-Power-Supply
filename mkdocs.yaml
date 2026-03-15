@@ -1,0 +1,49 @@
+site_name: Programmable Power Supply
+site_url: https://szymon-piorun-eng.github.io/Programmable-Power-Supply/
+repo_url: https://github.com/szymon-piorun-eng/Programmable-Power-Supply
+repo_name: GitHub
+
+theme:
+  name: material
+  custom_dir: .github/_CONFIG
+  features:
+    - navigation.tabs
+    - content.code.copy
+    - content.tooltips
+  palette: 
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: purple
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+
+plugins:
+  - search
+  - include-markdown
+  - macros:
+      module_name: scripts
+      include_yaml:
+        - data/requirements.yaml
+        - data/tests.yaml
+        - data/parameters.yaml
+
+markdown_extensions:
+  - attr_list            
+  - admonition           
+  - pymdownx.details     
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.arithmatex: 
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+watch:
+  - data/requirements.yaml
+  - data/tests.yaml
