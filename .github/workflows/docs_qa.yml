@@ -1,0 +1,57 @@
+name: Documentation QA
+
+on:
+  pull_request:
+  branches:
+    - Requirement-Analysis
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  spelling:
+    name: Spell Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run CSpell
+        uses: streetsidesoftware/cspell-action@v6
+        with:
+          files: 'docs/**/*.md'
+          config: 'cspell.json'
+          strict: false
+          incremental_files_only: true 
+
+  linting:
+    name: Lint Structure
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Markdownlint with Reviewdog
+        uses: reviewdog/action-markdownlint@v0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review 
+          filter_mode: added         
+          markdownlint_flags: 'docs/**/*.md --config .markdownlint.yaml'
+          fail_on_error: false       
+
+  prose:
+    name: Prose Style
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Vale with Reviewdog
+        uses: errata-ai/vale-action@reviewdog
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
+          filter_mode: added
+          fail_on_error: false
+          files: 'docs' 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
