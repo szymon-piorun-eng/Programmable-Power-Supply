@@ -21,7 +21,9 @@
     "VTC",
     "Wait",
     "multimeters",
-    "SCPI"
+    "SCPI",
+    "derating",
+    "UVLO"
   ],
   "ignorePaths": [
     ".github/**",
