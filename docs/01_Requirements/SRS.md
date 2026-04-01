@@ -10,8 +10,6 @@ Requirements specified include:
 
 4. **User interface** definition of power setting by user.
 
-5. **Safety & Protection Matrix** definition of possible faults, their level of danger, and implemented protection protocols.
-
 ## 1. Use cases
 
 This versatile High-Performance Low-Voltage Power Controller manages a wide range of applications, including:
@@ -36,10 +34,14 @@ Input source of this device is **12V barrel jack power supply**.
 
 {{ render_req_table('input_power') }}
 
-## 3. Output power 
+## 3. Output power
+
+The device can regulate the output in the ranges of 0-5V, 0-10A, and 0-50W.
 
 {{ render_req_table('output_power') }}
 
 ## 4. User interface
+
+The user can set the device output parameters via the SCPI protocol.
 
 {{ render_req_table('user_interface') }}
