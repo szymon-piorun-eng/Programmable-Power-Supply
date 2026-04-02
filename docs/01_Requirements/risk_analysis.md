@@ -16,3 +16,8 @@ This document identifies, assesses, and proposes mitigation measures for potenti
 
 ### Software
 
+{{ render_risk_table('risks.software') }}
+
+### Environmental
+
+{{ render_risk_table('risks.environmental') }}
