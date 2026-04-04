@@ -1,0 +1,95 @@
+risks:
+  hardware:
+    RSK_HWD_001:
+      description: "System overheating"
+      probability: "1"
+      impact: "2"
+      level: "2"
+      mitigation: "Monitoring temperature of the device and active cooling"
+    RSK_HDW_002:
+      description: "Inrush current too high"
+      probability: "1"
+      impact: "2"
+      level: "2"
+      mitigation: "Controlling dV/dt on the input of the device"
+    RSK_HWD_003:
+      description: "Shorted output of the device"
+      probability: "5"
+      impact: "1"
+      level: "5"
+      mitigation: "OCP on the output of the device"
+    RSK_HWD_004:
+      description: "Wrong polarity of input"
+      probability: "1"
+      impact: "5"
+      level: "5"
+      mitigation: "Using physical connector that cannot be plugged in wrong polarity"
+    RSK_HWD_005:
+      description: "Connecting voltage source to output"
+      probability: "5"
+      impact: "1"
+      level: "5"
+      mitigation: "Active reverse current blocking"
+    RSK_HWD_006:
+      description: "Too high input voltage"
+      probability: "4"
+      impact: "1"
+      level: "5"
+      mitigation: "Active OVP on the input"
+    RSK_HWD_007:
+      description: "Too low input voltage"
+      probability: "5"
+      impact: "1"
+      level: "5"
+      mitigation: "Active UVLO on the input"
+    RSK_HWD_008:
+      description: "Electrostatic discharge on USB port and XT30 output connector"
+      probability: "5"
+      impact: "1"
+      level: "5"
+      mitigation: "TVS diodes on relevant ports"
+  software:
+    RSK_SFT_001:
+      description: "Wrong SCPI command"
+      probability: "5"
+      impact: "1"
+      level: "1"
+      mitigation: "System able to handle all exceptions and edge cases"
+    RSK_SFT_002:
+      description: "USB-C cable disconnected mid data transmission"
+      probability: "4"
+      impact: "1"
+      level: "4"
+      mitigation: "System disables output and waiting for re-connection"
+    RSK_SFT_003:
+      description: "Processor not responding"
+      probability: "2"
+      impact: "2"
+      level: "4"
+      mitigation: "Watchdog timer resets the CPU and disables output of the device"
+    RSK_SFT_004:
+      description: "Calibration data corruption"
+      probability: "2"
+      impact: "1"
+      level: "2"
+      mitigation: "Check control sum before allowing normal usage"
+  environmental:
+    RSK_ENV_001:
+      description: "Water damage"
+      probability: "1"
+      impact: "5"
+      level: "5"
+      mitigation: "Enclosure without vertical holes to prevent direct spills"
+    RSK_ENV_002:
+      description: "Dust, debris and corrosive fumes"
+      probability: "4"
+      impact: "1"
+      level: "4"
+      mitigation: "Air intake with basic passive filtering"
+    RSK_ENV_003:
+      description: "Mechanical failure due to shock or drop"
+      probability: "3"
+      impact: "2"
+      level: "6"
+      mitigation: "Enclosure with mild shock resistance"
+

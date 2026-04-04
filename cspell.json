@@ -20,7 +20,10 @@
     "Validation",
     "VTC",
     "Wait",
-    "multimeters"
+    "multimeters",
+    "SCPI",
+    "derating",
+    "UVLO"
   ],
   "ignorePaths": [
     ".github/**",

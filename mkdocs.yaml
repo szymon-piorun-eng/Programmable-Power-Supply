@@ -29,6 +29,7 @@ plugins:
         - data/requirements.yaml
         - data/tests.yaml
         - data/parameters.yaml
+        - data/risks.yaml
 
 markdown_extensions:
   - attr_list            
@@ -47,3 +48,4 @@ extra_javascript:
 watch:
   - data/requirements.yaml
   - data/tests.yaml
+  - data/risks.yaml

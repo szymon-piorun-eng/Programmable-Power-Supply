@@ -1,0 +1,72 @@
+input_power:
+  columns: ["Description", "Min", "Typ", "Max", "Unit", "Requirement Code"]
+  rows:
+    input_voltage:
+      description: "Input Voltage"
+      min: "$11.5$"
+      typ: "$12$"
+      max: "$12.5$"
+      unit: "$V$"
+      requirement_code: "**REQ_INP_001**{: #REQ_INP_001 }"
+    input_current_draw:
+      description: "Input current draw"
+      min: "$-$"
+      typ: "$-$"
+      max: "$5$"
+      unit: "$A$"
+      requirement_code: "**REQ_INP_002**{: #REQ_INP_002 }"
+    inrush_current:
+      description: "Inrush Current"
+      min: "$-$"
+      typ: "$-$"
+      max: "$0.5$"
+      unit: "$A$"
+      requirement_code: "**REQ_INP_003**{: #REQ_INP_003 }"
+
+output_power:
+  columns: ["Description", "Min", "Typ", "Max", "Unit", "Requirement Code"]
+  rows:
+    output_voltage:
+      description: "Output Voltage"
+      min: "$0$"
+      typ: "$-$"
+      max: "$5$"
+      unit: "$V$"
+      requirement_code: "**REQ_OUT_001**{: #REQ_OUT_001 }"
+    output_current:
+      description: "Output Current"
+      min: "$0$"
+      typ: "$-$"
+      max: "$10$"
+      unit: "$A$"
+      requirement_code: "**REQ_OUT_002**{: #REQ_OUT_002 }"
+    voltage_ripple:
+      description: "Voltage ripple peak-peak"
+      min: "$[TBD]$"
+      typ: "$[TBD]$"
+      max: "$[TBD]$"
+      unit: "$V$"
+      requirement_code: "**REQ_OUT_003**{: #REQ_OUT_003 }"
+    output_power_val:
+      description: "Output power"
+      min: "$0$"
+      typ: "$-$"
+      max: "$50$"
+      unit: "$W$"
+      requirement_code: "**REQ_OUT_004**{: #REQ_OUT_004 }"
+
+user_interface:
+  columns: ["Requirement", "Description", "Requirement Code"]
+  rows:
+    communication:
+      requirement: "Communication"
+      description: "SCPI protocol over VCP via USB Type-C interface"
+      requirement_code: "**REQ_HMI_001**{: #REQ_HMI_001 }"
+    power_input_connector:
+      requirement: "Power input connector"
+      description: "Standard DC barrel power jack for 12V input"
+      requirement_code: "**REQ_HMI_002**{: #REQ_HMI_002 }"
+    power_out_connector:
+      requirement: "Power out connector"
+      description: "XT30 output power connector"
+      requirement_code: "**REQ_HMI_003**{: #REQ_HMI_003 }"

@@ -7,3 +7,6 @@ TCR
 VTC
 PDN
 Murata
+SCPI
+FPGA
+LED

@@ -1,0 +1,73 @@
+equipment:
+  general:
+    - "DUT"
+  laboratory:
+    - "Oscilloscope"
+    - "Multimeter"
+    - "Programmable power supply"
+    - "SWD debugger"
+    - "Hot air station"
+    - "Thermal camera"
+    - "Electronic load"
+
+tests:
+  TST_INP_001:
+    id: "**TST_INP_001**{: #TST_INP_001 }"
+    title: "Operating input voltage"
+    metadata: 
+      type: "Laboratory"
+      status: "Draft"
+  TST_INP_002:
+    id: "**TST_INP_002**{: #TST_INP_002 }"
+    title: "Input current draw"
+    metadata: 
+      type: "Laboratory"
+      status: "Draft"
+  TST_INP_003:
+    id: "**TST_INP_003**{: #TST_INP_003 }"
+    title: "Inrush current"
+    metadata: 
+      type: "Laboratory"
+      status: "Draft"
+  TST_OUT_001:
+    id: "**TST_OUT_001**{: #TST_OUT_001 }"
+    title: "Output voltage range"
+    metadata: 
+      type: "Laboratory"
+      status: "Draft"
+  TST_OUT_002:
+    id: "**TST_OUT_002**{: #TST_OUT_002 }"
+    title: "Output current range"
+    metadata: 
+      type: "Laboratory"
+      status: "Draft"
+  TST_OUT_003:
+    id: "**TST_OUT_003**{: #TST_OUT_003 }"
+    title: "Output voltage ripple"
+    metadata: 
+      type: "Laboratory"
+      status: "Draft"
+  TST_OUT_004:
+    id: "**TST_OUT_004**{: #TST_OUT_004 }"
+    title: "Output power range"
+    metadata: 
+      type: "Laboratory"
+      status: "Draft"
+  TST_HMI_001:
+    id: "**TST_HMI_001**{: #TST_HMI_001 }"
+    title: "SCPI communication"
+    metadata: 
+      type: "Human"
+      status: "Draft"
+  TST_HMI_002:
+    id: "**TST_HMI_002**{: #TST_HMI_002 }"
+    title: "Barrel jack compatibility"
+    metadata: 
+      type: "Human"
+      status: "Draft"
+  TST_HMI_003:
+    id: "**TST_HMI_003**{: #TST_HMI_003 }"
+    title: "XT30 compatibility"
+    metadata: 
+      type: "Human"
+      status: "Draft"

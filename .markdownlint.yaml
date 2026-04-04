@@ -9,3 +9,6 @@ MD033: false
 
 MD046:
   style: "consistent"
+
+MD007:
+  indent: 4
