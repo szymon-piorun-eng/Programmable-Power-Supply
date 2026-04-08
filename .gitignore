@@ -16,6 +16,7 @@ _autosave-*
 fp-info-cache
 /build
 *.net
+*.zip
 
 # Autorouter files (exported from Pcbnew)
 *.dsn
