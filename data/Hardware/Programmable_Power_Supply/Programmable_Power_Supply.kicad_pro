@@ -396,7 +396,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "Input_Section",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -416,6 +416,10 @@
     [
       "0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b",
       "Input Section"
+    ],
+    [
+      "08e0899f-a16f-4153-ac59-52ecc79a00b8",
+      "Output Section"
     ]
   ],
   "text_variables": {}

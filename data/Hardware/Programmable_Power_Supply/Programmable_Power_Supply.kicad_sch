@@ -1530,6 +1530,48 @@
 		)
 	)
 	(sheet
+		(at 203.2 27.94)
+		(size 73.66 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "08e0899f-a16f-4153-ac59-52ecc79a00b8")
+		(property "Sheetname" "Output Section"
+			(at 203.2 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output_section.kicad_sch"
+			(at 203.2 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Programmable_Power_Supply"
+				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 33.02 21.59)
 		(size 71.12 50.8)
 		(exclude_from_sim no)
@@ -1563,38 +1605,8 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3" input
-			(at 104.14 26.67 0)
-			(uuid "346db2a7-f344-40a4-8493-cb31865f679a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "12V" input
-			(at 104.14 30.48 0)
-			(uuid "51a11b16-192e-480c-b5f7-2828d4f19ef6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GND" input
-			(at 104.14 68.58 0)
-			(uuid "2d9a9e6a-c1db-4ce1-8355-9f28dada80f0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "IMON_ADC" input
-			(at 104.14 34.29 0)
+			(at 104.14 25.4 0)
 			(uuid "6e1b2698-dca2-4cc2-a819-c697c6b16bb9")
 			(effects
 				(font
