@@ -2491,16 +2491,16 @@
 		(uuid "2f2a186b-1b1b-46f8-8537-b373351f10a4")
 	)
 	(junction
-		(at 151.13 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "371c0627-67bc-46b8-b386-08c102d30d2c")
-	)
-	(junction
 		(at 203.2 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d71b5e1-b394-46ba-889a-e0e34a125f79")
+	)
+	(junction
+		(at 162.56 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "494db8ab-4342-4f18-90c9-9b265820ce57")
 	)
 	(junction
 		(at 151.13 137.16)
@@ -2584,7 +2584,13 @@
 		(at 240.03 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ca6a8011-e509-42d6-839e-3f5cfe2d77d2")
+		(uuid "d8c5d5ba-91d0-4a53-b10d-8e995d31bfc3")
+	)
+	(junction
+		(at 151.13 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da3311dd-a041-451f-9821-9ceb7a7b4e0e")
 	)
 	(junction
 		(at 151.13 63.5)
@@ -2609,12 +2615,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6c2da5b-1349-42ad-b79c-334acec4b365")
-	)
-	(junction
-		(at 162.56 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f989cfb9-47e0-4c46-b5a6-408d52402eda")
 	)
 	(junction
 		(at 76.2 99.06)
@@ -2702,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 63.5) (xy 173.99 63.5)
+			(xy 151.13 63.5) (xy 162.56 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3072,7 +3072,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 66.04) (xy 257.81 66.04)
+			(xy 229.87 66.04) (xy 240.03 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3122,6 +3122,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 128.27) (xy 161.29 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97508b91-fced-4182-88f0-34ef5d5bf25a")
+	)
+	(wire
+		(pts
 			(xy 148.59 128.27) (xy 151.13 128.27)
 		)
 		(stroke
@@ -3149,16 +3159,6 @@
 			(type default)
 		)
 		(uuid "9bccb43c-918d-468b-b271-48a79b4153b7")
-	)
-	(wire
-		(pts
-			(xy 151.13 128.27) (xy 161.29 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d754d00-5512-4bce-8272-b1e62a86f5d3")
 	)
 	(wire
 		(pts
@@ -3192,16 +3192,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 66.04) (xy 240.03 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2ce7e3d-a304-446a-ae8d-f76f6f1f4a54")
-	)
-	(wire
-		(pts
 			(xy 110.49 88.9) (xy 101.6 88.9)
 		)
 		(stroke
@@ -3229,6 +3219,16 @@
 			(type default)
 		)
 		(uuid "a4e19281-efa6-4460-8763-7dc3a9338db3")
+	)
+	(wire
+		(pts
+			(xy 240.03 66.04) (xy 257.81 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64b8182-4f3f-4a02-9b9f-40eaa1a40037")
 	)
 	(wire
 		(pts
@@ -3332,6 +3332,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 63.5) (xy 173.99 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c553ca74-6b43-457d-8c60-e5fab287aea4")
+	)
+	(wire
+		(pts
 			(xy 135.89 81.28) (xy 157.48 81.28)
 		)
 		(stroke
@@ -3352,6 +3362,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 55.88) (xy 106.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18ac99a-2738-492a-a7c8-a93a889f4110")
+	)
+	(wire
+		(pts
 			(xy 83.82 58.42) (xy 76.2 58.42)
 		)
 		(stroke
@@ -3359,16 +3379,6 @@
 			(type default)
 		)
 		(uuid "d47989c7-436c-40f4-9fc1-732b452bbdb3")
-	)
-	(wire
-		(pts
-			(xy 162.56 63.5) (xy 151.13 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d844f8a9-4003-4e60-a15e-2c373987ff21")
 	)
 	(wire
 		(pts
@@ -3610,7 +3620,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 106.68 58.42 0)
+		(at 106.68 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3619,7 +3629,7 @@
 		(fields_autoplaced yes)
 		(uuid "09fee9d3-ed9b-4e10-b8c4-b4268df66538")
 		(property "Reference" "#FLG03"
-			(at 106.68 56.515 0)
+			(at 106.68 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,7 +3638,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 106.68 53.34 0)
+			(at 106.68 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3636,7 +3646,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 58.42 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,7 +3655,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 58.42 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,7 +3664,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 106.68 58.42 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3736,6 +3746,92 @@
 			(project "Programmable_Power_Supply"
 				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 199.39 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10260883-5851-4ce4-97c9-d0d238991d3e")
+		(property "Reference" "C6"
+			(at 199.39 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 199.39 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 203.2 62.5348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/or/download?pn=MLAST063SCG681JFNA01&fileType=CA"
+			(at 199.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 199.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "MLASG063SB5104KFNA01 "
+			(at 199.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
+			(at 199.39 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f8f3d1b-1b4a-4e69-89c5-0a790b52d742")
+		)
+		(pin "1"
+			(uuid "faa4f84c-5539-441d-bfbb-6dcdb525578b")
+		)
+		(instances
+			(project "Programmable_Power_Supply"
+				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3834,7 +3930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal"
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal"
 			(at 46.99 53.086 0)
 			(effects
 				(font
@@ -3843,7 +3939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/6118/1/pj-063ah.pdf"
 			(at 46.99 53.086 0)
 			(effects
 				(font
@@ -3853,6 +3949,24 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with a mounting pin"
+			(at 45.72 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "PJ-063AH"
+			(at 45.72 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
 			(at 45.72 52.07 0)
 			(effects
 				(font
@@ -3948,15 +4062,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 162.56 67.31 0)
+		(at 240.03 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "25ce826d-7911-401b-ba40-d5ef8f348fc7")
-		(property "Reference" "C3"
-			(at 166.37 66.0399 0)
+		(fields_autoplaced yes)
+		(uuid "23ba02f4-054e-4ad4-8b84-8457310e01ba")
+		(property "Reference" "C5"
+			(at 243.84 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3964,8 +4079,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 166.37 68.5799 0)
+		(property "Value" "22u"
+			(at 243.84 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3974,7 +4089,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 163.5252 71.12 0)
+			(at 240.9952 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,8 +4097,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 162.56 67.31 0)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/76/2/GRM31CC71C226ME11_01A.pdf"
+			(at 240.03 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3992,7 +4107,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 162.56 67.31 0)
+			(at 240.03 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "GRM31CC71C226ME11K "
+			(at 240.03 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
+			(at 240.03 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,15 +4134,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "31be792d-8c71-4b07-a703-76a09cbafa7b")
+			(uuid "4bddbd7b-4246-4ebc-8865-52cf11a4fb18")
 		)
 		(pin "2"
-			(uuid "f47d37dc-401f-473a-a16c-acc0840e7b12")
+			(uuid "8b2f5210-dde8-4572-bcbd-8babbb3c08ec")
 		)
 		(instances
 			(project "Programmable_Power_Supply"
 				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4149,6 +4282,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 76.2 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dfe64f0-c1c4-4c92-b2c4-3cdf88bf7f0b")
+		(property "Reference" "R3"
+			(at 78.74 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 78.74 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 74.422 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20037/rcae3.pdf"
+			(at 76.2 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "RCA0603100KFKEC"
+			(at 76.2 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
+			(at 76.2 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3848d6ee-6db1-41f6-9b5e-a918c5a5ccf1")
+		)
+		(pin "2"
+			(uuid "fd1ef030-872b-4012-8b5d-d964d5121f0d")
+		)
+		(instances
+			(project "Programmable_Power_Supply"
+				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 229.87 69.85 0)
 		(unit 1)
@@ -4185,7 +4406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/76/2/GRM31CC71C226ME11_01A.pdf"
 			(at 229.87 69.85 0)
 			(effects
 				(font
@@ -4195,6 +4416,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "GRM31CC71C226ME11K "
+			(at 229.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
 			(at 229.87 69.85 0)
 			(effects
 				(font
@@ -4213,76 +4452,6 @@
 			(project "Programmable_Power_Supply"
 				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 76.2 118.11 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3289ebb0-b4e1-466f-8b56-7649d8595a4e")
-		(property "Reference" "R3"
-			(at 78.74 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 78.74 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 77.978 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 76.2 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3ed555c-42dc-4da7-a8ec-2c8461f14969")
-		)
-		(pin "2"
-			(uuid "43442308-a8eb-492f-a665-513de3558e32")
-		)
-		(instances
-			(project "Programmable_Power_Supply"
-				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4356,6 +4525,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 137.16 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d3d367f-1c3a-4691-aff8-32e7d53f0d51")
+		(property "Reference" "C28"
+			(at 140.97 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 140.97 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 138.1252 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/or/download?pn=MLAST063SCG681JFNA01&fileType=CA"
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "MLASU063SB5103KFNA01 "
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67e138ac-0995-436d-8c89-8389ad1bc97f")
+		)
+		(pin "2"
+			(uuid "8f9c5af8-cf89-44cf-9eb8-a7bf6c06c4b6")
+		)
+		(instances
+			(project "Programmable_Power_Supply"
+				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 76.2 93.98 180)
 		(unit 1)
@@ -4392,7 +4649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20008/dcrcw.pdf"
 			(at 76.2 93.98 0)
 			(effects
 				(font
@@ -4402,6 +4659,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "CRCW0603976KFKTA"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
 			(at 76.2 93.98 0)
 			(effects
 				(font
@@ -4560,76 +4835,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 167.64 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e886ffa-f4de-4c47-b8d1-07c22c6186be")
-		(property "Reference" "C26"
-			(at 171.45 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 171.45 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 168.6052 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 167.64 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7873ddb2-d9b7-43f8-93d9-5b888b8a3044")
-		)
-		(pin "2"
-			(uuid "914c32ca-d61d-4c4a-a326-6377cda46e8b")
-		)
-		(instances
-			(project "Programmable_Power_Supply"
-				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 146.05 92.71 180)
 		(unit 1)
@@ -4648,7 +4853,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3k24"
+		(property "Value" "3k3"
 			(at 148.59 93.9799 0)
 			(effects
 				(font
@@ -4666,7 +4871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/40/1/cr.pdf"
 			(at 146.05 92.71 0)
 			(effects
 				(font
@@ -4676,6 +4881,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "CR0603-FX-3301ELF"
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
 			(at 146.05 92.71 0)
 			(effects
 				(font
@@ -4727,7 +4950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.96x2.96mm_ThermalVias"
+		(property "Footprint" "Szymon_Piorun_Library:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.96x2.96mm_ThermalVias"
 			(at 123.19 107.95 0)
 			(effects
 				(font
@@ -4746,6 +4969,24 @@
 			)
 		)
 		(property "Description" "60V, 6A Power Limiting, Surge Protection Industrial eFuse, Adjustable Overvoltage cut-off, Active Current Limiting with Pulse current support, HTTSOP-20"
+			(at 123.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "TPS26633PWPR "
+			(at 123.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
 			(at 123.19 76.2 0)
 			(effects
 				(font
@@ -4827,6 +5068,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 162.56 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6556b56d-d3a5-4e9c-97cb-b1af2334e00f")
+		(property "Reference" "C3"
+			(at 166.37 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 166.37 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 163.5252 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/76/2/GXT31CR6YA106KE01_01A.pdf"
+			(at 162.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "GXT31CR6YA106KE01L "
+			(at 162.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
+			(at 162.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5639bf8d-2af5-451e-9b7c-7f09b32f190e")
+		)
+		(pin "1"
+			(uuid "5e00bae1-01cd-4dfe-9690-798bc7c0f9d3")
+		)
+		(instances
+			(project "Programmable_Power_Supply"
+				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Switching:TPS54202DDC")
 		(at 184.15 66.04 0)
 		(unit 1)
@@ -4872,6 +5201,24 @@
 			)
 		)
 		(property "Description" "2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6"
+			(at 184.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "TPS542025DDCR"
+			(at 184.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
 			(at 184.15 66.04 0)
 			(effects
 				(font
@@ -4944,7 +5291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 219.71 87.63 0)
 			(effects
 				(font
@@ -4954,6 +5301,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 219.71 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "CRCW060322K1FKEBC "
+			(at 219.71 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
 			(at 219.71 87.63 0)
 			(effects
 				(font
@@ -4978,43 +5343,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Szymon_Piorun_library:BSC050N03LS_G")
-		(at 88.9 60.96 270)
-		(mirror x)
+		(lib_id "Device:C")
+		(at 161.29 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "770e837b-6baf-4ad5-8b2f-29aadaf5624f")
-		(property "Reference" "Q1"
-			(at 88.9 52.07 90)
+		(uuid "737a18dc-836d-43ed-b531-0c2357e4ec4e")
+		(property "Reference" "C25"
+			(at 165.1 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "BSC050N03LS_G"
-			(at 88.9 54.61 90)
+		(property "Value" "100n"
+			(at 165.1 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Infineon_PG-TDSON-8_6.15x5.15mm"
-			(at 70.104 61.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsc050n03ls-ds-en.pdf?fileId=db3a304412b407950112b4276b953c2b"
-			(at 74.422 57.15 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 162.2552 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5022,8 +5379,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OptiMOS™3 Power-MOSFET"
-			(at 66.548 61.722 0)
+		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/or/download?pn=MLAST063SCG681JFNA01&fileType=CA"
+			(at 161.29 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,34 +5388,43 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "29496a3d-be75-4cd3-b473-3270ad6533ae")
+		(property "Description" "Unpolarized capacitor"
+			(at 161.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "bf2edc40-29ba-4d19-9103-b446ed242279")
+		(property "Mouser" "MLASG063SB5104KFNA01 "
+			(at 161.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "8"
-			(uuid "999c1e06-4d58-43a8-a1e9-1adf06d2b63b")
+		(property "Mosuer" ""
+			(at 161.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "197945a9-c442-4447-a9cf-232bffc2eb1b")
-		)
-		(pin "5"
-			(uuid "c62d9110-cdd1-4130-8f8e-c6cb36eac945")
+			(uuid "536e5465-b7a0-480d-b5cf-b4e3841a5d98")
 		)
 		(pin "1"
-			(uuid "c647a267-3f58-4aa6-af6b-fb6b434280af")
-		)
-		(pin "7"
-			(uuid "9bc2af94-b2a2-4b0c-bb8e-cf1e577cc192")
-		)
-		(pin "6"
-			(uuid "bf935284-5714-44d2-adeb-00d50491a4fc")
+			(uuid "3a4b9564-e60b-4951-b44a-7c73d0f1889e")
 		)
 		(instances
-			(project ""
+			(project "Programmable_Power_Supply"
 				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
-					(reference "Q1")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -5114,6 +5480,24 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "2N7002"
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
 			(at 91.44 76.2 0)
 			(effects
 				(font
@@ -5275,6 +5659,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 151.13 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b25a51d-fff3-4cbd-8d61-081e9af7d4f6")
+		(property "Reference" "R24"
+			(at 153.67 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 153.67 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 149.352 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20037/rcae3.pdf"
+			(at 151.13 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "RCA060310K0FKEC "
+			(at 151.13 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
+			(at 151.13 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35c3999b-ec9c-44a3-9465-863b6b2e66b5")
+		)
+		(pin "2"
+			(uuid "4807df71-4c79-4c98-8b93-8a1c3e5e0e6b")
+		)
+		(instances
+			(project "Programmable_Power_Supply"
+				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 99.06 0)
 		(unit 1)
@@ -5396,6 +5868,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "SMBJ15A"
+			(at 63.5 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
+			(at 63.5 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5641a4ec-485c-4fd1-9067-8f42b84c8a35")
 		)
@@ -5473,6 +5963,94 @@
 			(project "Programmable_Power_Supply"
 				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "960a81ba-f073-492d-87bf-5d4c77d23cbb")
+		(property "Reference" "C12"
+			(at 171.45 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 171.45 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 168.6052 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/or/download?pn=MLAST063SCG681JFNA01&fileType=CA"
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "MLASU063SB5103KFNA01 "
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbcc35a1-fbf6-4221-8318-6963d6712852")
+		)
+		(pin "2"
+			(uuid "28c858ff-c9ec-4124-b4a0-b827149b41be")
+		)
+		(instances
+			(project "Programmable_Power_Supply"
+				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5582,7 +6160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYu-AF_51_RoHS_L_9.pdf"
 			(at 76.2 105.41 0)
 			(effects
 				(font
@@ -5592,6 +6170,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "AF0603FR-0718K2L "
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
 			(at 76.2 105.41 0)
 			(effects
 				(font
@@ -5617,86 +6213,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 137.16 102.87 0)
+		(at 63.5 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ae8dcf52-8a73-4e71-8808-d21ce57a2704")
-		(property "Reference" "C28"
-			(at 140.97 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 140.97 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 138.1252 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 137.16 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38130dce-00cc-4f2d-8d43-f5cea0ff2f0a")
-		)
-		(pin "2"
-			(uuid "8a0779f1-cf15-47e7-bca8-fa5903c73dd9")
-		)
-		(instances
-			(project "Programmable_Power_Supply"
-				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 161.29 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8390d6b-53fd-492c-bc79-3f762a003387")
-		(property "Reference" "C25"
-			(at 165.1 132.0799 0)
+		(uuid "b5289723-af4d-4200-8307-50b9460dfdfd")
+		(property "Reference" "C2"
+			(at 67.31 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +6231,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 165.1 134.6199 0)
+			(at 67.31 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5713,8 +6239,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 162.2552 137.16 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 64.4652 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,8 +6248,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 161.29 133.35 0)
+		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/or/download?pn=MLAST063SCG681JFNA01&fileType=CA"
+			(at 63.5 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5732,7 +6258,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 161.29 133.35 0)
+			(at 63.5 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5740,16 +6266,34 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "4c16775a-f387-4a7a-ba2a-5c515b510816")
+		(property "Mouser" "MLASG063SB5104KFNA01 "
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "4b421e5c-2661-4293-9277-34c138786556")
+			(uuid "843eb81b-d966-43d5-91ae-52e716a0a0dc")
+		)
+		(pin "1"
+			(uuid "36a4e6cd-ddee-44bf-8cbd-bf96ebf811fd")
 		)
 		(instances
 			(project "Programmable_Power_Supply"
 				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
-					(reference "C25")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5823,76 +6367,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 151.13 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c473be47-b630-4c8c-8c9c-274f3380c2a4")
-		(property "Reference" "R24"
-			(at 153.67 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 153.67 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 149.352 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 151.13 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12b1bea0-80ff-4821-8087-6105532c9379")
-		)
-		(pin "2"
-			(uuid "0739524e-d248-4c36-8e49-14aca717b416")
-		)
-		(instances
-			(project "Programmable_Power_Supply"
-				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 71.12 46.99 0)
 		(unit 1)
@@ -5953,6 +6427,112 @@
 			(project ""
 				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Szymon_Piorun_library:BSC050N03LS_G")
+		(at 88.9 60.96 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7152425-f7fd-497e-be10-e95497410029")
+		(property "Reference" "Q1"
+			(at 93.98 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BSC050N03LS_G"
+			(at 93.98 52.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Szymon_Piorun_Library:Infineon_PG-TDSON-8_6.15x5.15mm"
+			(at 70.104 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsc050n03ls-ds-en.pdf?fileId=db3a304412b407950112b4276b953c2b"
+			(at 74.422 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OptiMOS™3 Power-MOSFET"
+			(at 66.548 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "BSC030N03LS G "
+			(at 88.9 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
+			(at 88.9 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "9c9da109-07c3-429a-96f8-c82365bebe96")
+		)
+		(pin "2"
+			(uuid "3a4acc84-b7e7-4445-b73d-638aa98c40a0")
+		)
+		(pin "7"
+			(uuid "3155ecb5-03f8-434a-84cf-f1a0322872c1")
+		)
+		(pin "3"
+			(uuid "5bf02245-7b80-4583-9be8-cd417441be40")
+		)
+		(pin "8"
+			(uuid "5fffd5a1-09be-4198-ac24-78b6fceae309")
+		)
+		(pin "5"
+			(uuid "6b1347ba-a4a3-4e2c-b330-d6a0e5601848")
+		)
+		(pin "1"
+			(uuid "11db3f51-6c79-487c-bc83-f0497c8c5d4e")
+		)
+		(pin "4"
+			(uuid "0d47ce73-a597-4616-b75b-acea87b4bc31")
+		)
+		(instances
+			(project "Programmable_Power_Supply"
+				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -6027,144 +6607,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 199.39 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4318935-70bd-4df8-8e48-eee71678cc30")
-		(property "Reference" "C6"
-			(at 199.39 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 199.39 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 203.2 62.5348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 199.39 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b7bd262-9123-488f-b40d-a873e5807e90")
-		)
-		(pin "2"
-			(uuid "f1b13f55-48f9-4c01-b691-bdafae96b20d")
-		)
-		(instances
-			(project "Programmable_Power_Supply"
-				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 63.5 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d44bfee7-277c-4153-9a3a-99ee05a21434")
-		(property "Reference" "C2"
-			(at 67.31 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 67.31 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 64.4652 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 63.5 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6f68852-fdf0-49ad-b3bd-2b728f7e217d")
-		)
-		(pin "2"
-			(uuid "049ad007-8912-4315-a7d8-8a83c5657315")
-		)
-		(instances
-			(project "Programmable_Power_Supply"
-				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 101.6 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6200,7 +6642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/or/download?pn=MLAST063SCG681JFNA01&fileType=CA"
 			(at 101.6 95.25 0)
 			(effects
 				(font
@@ -6210,6 +6652,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 101.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "MLASU063SB5103KFNA01 "
+			(at 101.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
 			(at 101.6 95.25 0)
 			(effects
 				(font
@@ -6268,7 +6728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 144.78 128.27 0)
 			(effects
 				(font
@@ -6279,6 +6739,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 144.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "CRCW060347K0FKECC "
+			(at 144.78 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
+			(at 144.78 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6405,7 +6883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116040.pdf"
 			(at 157.48 92.71 0)
 			(effects
 				(font
@@ -6415,6 +6893,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 157.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "560112116040"
+			(at 157.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
 			(at 157.48 92.71 0)
 			(effects
 				(font
@@ -6439,76 +6935,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 240.03 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef64def7-955f-477c-81a0-f10416439d3a")
-		(property "Reference" "C5"
-			(at 243.84 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 243.84 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 240.9952 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 240.03 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0cda289-124f-49a1-9fb1-a982dfb370e8")
-		)
-		(pin "2"
-			(uuid "640f5b98-a439-4aef-9960-c8dd1f8154ed")
-		)
-		(instances
-			(project "Programmable_Power_Supply"
-				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/0d4dc9d8-4ae1-4f7b-b0fe-cdea114c506b"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 212.09 66.04 90)
 		(unit 1)
@@ -6526,7 +6952,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uH"
 			(at 212.09 63.5 90)
 			(effects
 				(font
@@ -6534,7 +6960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-60xx_HandSoldering"
+		(property "Footprint" "Szymon_Piorun_Library:SRP6540"
 			(at 212.09 66.04 0)
 			(effects
 				(font
@@ -6543,7 +6969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/40/1/srp6540.pdf"
 			(at 212.09 66.04 0)
 			(effects
 				(font
@@ -6554,6 +6980,24 @@
 		)
 		(property "Description" "Inductor"
 			(at 212.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "SRP6540-100M "
+			(at 212.09 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
+			(at 212.09 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6613,7 +7057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20037/rcae3.pdf"
 			(at 219.71 77.47 0)
 			(effects
 				(font
@@ -6623,6 +7067,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 219.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "RCA0603100KFKEC"
+			(at 219.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
 			(at 219.71 77.47 0)
 			(effects
 				(font
