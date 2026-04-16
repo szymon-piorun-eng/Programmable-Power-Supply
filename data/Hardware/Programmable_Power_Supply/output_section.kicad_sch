@@ -189,6 +189,331 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BSC050N03LS_G_1"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSC050N03LS_G"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SON:Infineon_PG-TDSON-8_6.15x5.15mm"
+				(at -0.762 -18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsc050n03ls-ds-en.pdf?fileId=db3a304412b407950112b4276b953c2b"
+				(at 3.81 -14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "OptiMOS™3 Power-MOSFET"
+				(at -0.762 -22.352 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BSC050N03LS_G_1_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BSC050N03LS_G_1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016)
@@ -1014,388 +1339,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Szymon_Piorun_library:BSC050N03LS_G"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BSC050N03LS_G"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SON:Infineon_PG-TDSON-8_6.15x5.15mm"
-				(at -0.762 -18.796 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsc050n03ls-ds-en.pdf?fileId=db3a304412b407950112b4276b953c2b"
-				(at 3.81 -14.478 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "OptiMOS™3 Power-MOSFET"
-				(at -0.762 -22.352 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BSC050N03LS_G_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BSC050N03LS_G_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2423,7 +2366,7 @@
 		(uuid "4e71d1cd-12c8-4919-adfb-33ad6d31e945")
 	)
 	(junction
-		(at 260.35 58.42)
+		(at 257.81 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55cec086-c7c7-41ad-959a-c484a9897096")
@@ -2433,6 +2376,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6333c6d2-ba14-4fc5-85f8-ecda48c84123")
+	)
+	(junction
+		(at 269.24 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67e394c1-1e82-448f-845f-a5ce930ea70c")
 	)
 	(junction
 		(at 199.39 80.01)
@@ -2445,6 +2394,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "786b89bd-6ce8-4cfb-a8ed-9586ef4e242f")
+	)
+	(junction
+		(at 99.06 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "799fb517-65d0-4f4f-a12a-351cdb6a223b")
 	)
 	(junction
 		(at 31.75 58.42)
@@ -2489,7 +2444,7 @@
 		(uuid "a87ef5c2-c049-4460-b380-a24c7e8bb8b1")
 	)
 	(junction
-		(at 271.78 58.42)
+		(at 269.24 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2fb6371-981e-4497-955a-06a448a15222")
@@ -2501,7 +2456,7 @@
 		(uuid "cbe235b5-4a39-40a8-920c-4e74caac6c3f")
 	)
 	(junction
-		(at 271.78 44.45)
+		(at 269.24 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf9f062c-6fec-44e6-890d-d4c493c466b1")
@@ -2531,19 +2486,13 @@
 		(uuid "e48fad0d-24e5-464e-b6e0-526640049d6e")
 	)
 	(junction
-		(at 271.78 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8d652a6-d47f-426f-8b85-2749fffb306f")
-	)
-	(junction
 		(at 254 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb273991-2bbb-4a87-a1d1-688f8268b695")
 	)
 	(junction
-		(at 269.24 44.45)
+		(at 266.7 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec02268a-b946-488d-ab60-3e2073367ae0")
@@ -2553,6 +2502,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f25e3014-2f2b-483d-a573-0154fd623ff8")
+	)
+	(junction
+		(at 93.98 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffe81c72-ef52-4bbc-aa73-e51b736d10bf")
 	)
 	(no_connect
 		(at 104.14 80.01)
@@ -2581,6 +2536,16 @@
 			(type default)
 		)
 		(uuid "0b14f46d-429e-405a-bc84-ccb4b1a5fc44")
+	)
+	(wire
+		(pts
+			(xy 269.24 80.01) (xy 280.67 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6df149-87bf-4b59-84a4-a7e91a297ac5")
 	)
 	(wire
 		(pts
@@ -2614,7 +2579,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 49.53) (xy 269.24 49.53)
+			(xy 257.81 49.53) (xy 266.7 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2654,7 +2619,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 44.45) (xy 266.7 43.18)
+			(xy 264.16 44.45) (xy 264.16 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2814,16 +2779,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 80.01) (xy 280.67 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4258f30c-7f75-4565-93f6-25d6014b958a")
-	)
-	(wire
-		(pts
 			(xy 271.78 96.52) (xy 271.78 116.84)
 		)
 		(stroke
@@ -2874,7 +2829,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 58.42) (xy 262.89 58.42)
+			(xy 257.81 58.42) (xy 260.35 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2914,7 +2869,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 43.18) (xy 271.78 44.45)
+			(xy 269.24 43.18) (xy 269.24 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2924,7 +2879,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 44.45) (xy 269.24 44.45)
+			(xy 264.16 44.45) (xy 266.7 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3004,7 +2959,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 63.5) (xy 260.35 58.42)
+			(xy 257.81 63.5) (xy 257.81 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3094,7 +3049,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 44.45) (xy 269.24 49.53)
+			(xy 266.7 44.45) (xy 266.7 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3104,7 +3059,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 132.08) (xy 97.79 132.08)
+			(xy 85.09 132.08) (xy 93.98 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3124,7 +3079,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 90.17) (xy 97.79 90.17)
+			(xy 104.14 90.17) (xy 93.98 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3174,7 +3129,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 58.42) (xy 118.11 58.42)
+			(xy 54.61 58.42) (xy 99.06 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3184,7 +3139,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 58.42) (xy 260.35 49.53)
+			(xy 257.81 58.42) (xy 257.81 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3204,7 +3159,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 43.18) (xy 269.24 44.45)
+			(xy 266.7 43.18) (xy 266.7 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3261,6 +3216,16 @@
 			(type default)
 		)
 		(uuid "a80de30c-a7a4-48ce-b1b0-118c628eae7c")
+	)
+	(wire
+		(pts
+			(xy 99.06 58.42) (xy 118.11 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec1912c-c0a0-41f0-af07-58cc42b8bd43")
 	)
 	(wire
 		(pts
@@ -3324,7 +3289,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 58.42) (xy 271.78 80.01)
+			(xy 269.24 58.42) (xy 269.24 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3334,7 +3299,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 80.01) (xy 271.78 80.01)
+			(xy 267.97 80.01) (xy 269.24 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3374,7 +3339,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 58.42) (xy 271.78 58.42)
+			(xy 267.97 58.42) (xy 269.24 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3414,7 +3379,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 43.18) (xy 274.32 44.45)
+			(xy 271.78 43.18) (xy 271.78 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3454,7 +3419,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 44.45) (xy 271.78 58.42)
+			(xy 269.24 44.45) (xy 269.24 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3534,6 +3499,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 132.08) (xy 97.79 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f1bee7-3e62-4e96-a1d0-3c20cf33fc1a")
+	)
+	(wire
+		(pts
 			(xy 161.29 80.01) (xy 177.8 80.01)
 		)
 		(stroke
@@ -3564,7 +3539,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 44.45) (xy 274.32 44.45)
+			(xy 269.24 44.45) (xy 271.78 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3624,13 +3599,143 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 90.17) (xy 97.79 132.08)
+			(xy 93.98 90.17) (xy 93.98 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ffc49c2f-e10e-42a3-a18a-84f27c652725")
+	)
+	(label "LM_FB"
+		(at 95.25 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09faccb6-13d4-461e-9cb6-1401ac25e102")
+	)
+	(label "LM_ILIM"
+		(at 165.1 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37454a47-c2a3-4000-893d-3185017cbf1a")
+	)
+	(label "LM_EN{slash}UVLO"
+		(at 85.09 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f1dc903-50b8-4e45-b848-31d3ef946bf4")
+	)
+	(label "LM_BST"
+		(at 149.86 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48e794a9-1bea-44be-8d5d-890458be55e8")
+	)
+	(label "LM_HO"
+		(at 162.56 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54ebfc19-a9af-4d66-96e5-9dcda7feb256")
+	)
+	(label "LM_COMP"
+		(at 90.17 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ef8c9a8-0876-4d6a-bb4b-f4f79a9d0cdf")
+	)
+	(label "LM_SW"
+		(at 167.64 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "633dcf6f-a351-4dc8-986b-a2d55ce06651")
+	)
+	(label "LM_LO"
+		(at 157.48 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91ed5ad2-6ffd-432c-b637-67f014908742")
+	)
+	(label "LM_SS"
+		(at 80.01 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98e21e59-d49b-426a-b265-50dcd5e74304")
+	)
+	(label "LM_RT"
+		(at 80.01 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9ce34ef-8200-45e9-9886-b85b39e30742")
+	)
+	(label "LM_VCC"
+		(at 139.7 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3b5de15-3e39-4cfe-a1ee-58fab4e184a8")
+	)
+	(label "V_OUT_PMON"
+		(at 229.87 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7780627-3704-4f40-af58-6b49eaa08250")
+	)
+	(label "V_OUT"
+		(at 269.24 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc72565c-ac35-4732-b245-456468674303")
 	)
 	(global_label "12V_SYS"
 		(shape input)
@@ -4804,7 +4909,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7002")
-		(at 44.45 77.47 90)
+		(at 44.45 77.47 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4812,7 +4918,7 @@
 		(dnp no)
 		(uuid "2c2db7e7-62c9-4d90-9beb-936813153f33")
 		(property "Reference" "Q5"
-			(at 45.7201 71.12 0)
+			(at 43.1799 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +4927,7 @@
 			)
 		)
 		(property "Value" "2N7002"
-			(at 43.1801 71.12 0)
+			(at 45.7199 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4830,7 +4936,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 46.355 72.39 0)
+			(at 42.545 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,7 +4947,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 48.26 72.39 0)
+			(at 40.64 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,6 +5224,85 @@
 		)
 	)
 	(symbol
+		(lib_name "BSC050N03LS_G_1")
+		(lib_id "Szymon_Piorun_library:BSC050N03LS_G")
+		(at 175.26 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c1f3fa8-72ab-4510-8dc3-ee53368ffb45")
+		(property "Reference" "Q3"
+			(at 183.642 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BSC050N03LS_G"
+			(at 196.596 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Szymon_Piorun_Library:Infineon_PG-TDSON-8_6.15x5.15mm"
+			(at 174.498 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsc050n03ls-ds-en.pdf?fileId=db3a304412b407950112b4276b953c2b"
+			(at 179.07 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OptiMOS™3 Power-MOSFET"
+			(at 174.498 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "19758ecf-484e-450b-a78d-bb607a3c703e")
+		)
+		(pin "1"
+			(uuid "753caa9d-7ef4-4f3c-b08f-50166a06f453")
+		)
+		(pin "2"
+			(uuid "a1054031-e449-4797-a164-be0838f73d4a")
+		)
+		(pin "3"
+			(uuid "7f658db1-2210-4cc5-82bd-0a419a4389f4")
+		)
+		(pin "4"
+			(uuid "63084497-add2-44f0-ae8a-2e03e9b1b9af")
+		)
+		(instances
+			(project "Programmable_Power_Supply"
+				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/08e0899f-a16f-4153-ac59-52ecc79a00b8"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 215.9 83.82 0)
 		(unit 1)
@@ -5231,7 +5416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-GF-1210"
+		(property "Footprint" "Inductor_SMD:L_Wuerth_HCI-1365"
 			(at 208.28 80.01 0)
 			(effects
 				(font
@@ -5258,7 +5443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "7443320470 "
+		(property "Mouser" "7443551470"
 			(at 208.28 80.01 90)
 			(effects
 				(font
@@ -5359,114 +5544,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Szymon_Piorun_library:BSC050N03LS_G")
-		(at 175.26 91.44 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b09983f-1e28-4d56-b382-9fc94643bcdc")
-		(property "Reference" "Q4"
-			(at 181.61 92.7101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC050N03LS_G"
-			(at 181.61 90.1701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Szymon_Piorun_Library:Infineon_PG-TDSON-8_6.15x5.15mm"
-			(at 174.498 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsc050n03ls-ds-en.pdf?fileId=db3a304412b407950112b4276b953c2b"
-			(at 179.07 76.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "OptiMOS™3 Power-MOSFET"
-			(at 174.498 69.088 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "BSC030N03LS G "
-			(at 175.26 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mosuer" ""
-			(at 175.26 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "3513a801-012c-45f5-8540-71cd145c474b")
-		)
-		(pin "2"
-			(uuid "ee577424-f0d8-4244-9c70-e07da394bad3")
-		)
-		(pin "7"
-			(uuid "40628d15-9498-434e-bf00-14d1aad28eaf")
-		)
-		(pin "3"
-			(uuid "a99a71f3-5022-455f-a9a1-dcf055758d9a")
-		)
-		(pin "8"
-			(uuid "932bf75c-4a23-43e2-a824-206fff64d51b")
-		)
-		(pin "5"
-			(uuid "6272e85e-d924-4203-9e5c-46d8224c8669")
-		)
-		(pin "1"
-			(uuid "47196cd2-ae43-471c-83b7-8e9762fa094b")
-		)
-		(pin "4"
-			(uuid "816bab30-e30f-4649-abf0-7f7fa7343c95")
-		)
-		(instances
-			(project "Programmable_Power_Supply"
-				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/08e0899f-a16f-4153-ac59-52ecc79a00b8"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 269.24 38.1 90)
+		(at 266.7 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5475,7 +5554,7 @@
 		(fields_autoplaced yes)
 		(uuid "73fc63b4-75a2-4de4-a982-3a38d2ce6ccf")
 		(property "Reference" "J2"
-			(at 270.51 33.02 90)
+			(at 267.97 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5483,7 +5562,7 @@
 			)
 		)
 		(property "Value" "Phoenix Contact 1891519"
-			(at 270.51 35.56 90)
+			(at 267.97 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5491,7 +5570,7 @@
 			)
 		)
 		(property "Footprint" "Szymon_Piorun_Library:2 pin power connector"
-			(at 269.24 38.1 0)
+			(at 266.7 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,7 +5579,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/datasheet/3/507/9/phoenix_contact_1891519_en.pdf"
-			(at 269.24 38.1 0)
+			(at 266.7 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5509,7 +5588,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 269.24 38.1 0)
+			(at 266.7 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,7 +5597,7 @@
 			)
 		)
 		(property "Mouser" "1891519 "
-			(at 269.24 38.1 90)
+			(at 266.7 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,7 +5606,7 @@
 			)
 		)
 		(property "Mosuer" ""
-			(at 269.24 38.1 90)
+			(at 266.7 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6149,6 +6228,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 99.06 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a3591c2-1560-4c1e-bf22-cbf0034a93e6")
+		(property "Reference" "#PWR044"
+			(at 99.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e0c1da7-4585-4295-b88e-2f14b7d5fe4e")
+		)
+		(instances
+			(project "Programmable_Power_Supply"
+				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/08e0899f-a16f-4153-ac59-52ecc79a00b8"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 97.79 146.05 0)
 		(unit 1)
@@ -6238,7 +6384,7 @@
 	)
 	(symbol
 		(lib_id "Szymon_Piorun_library:SMBJ6.0A")
-		(at 266.7 58.42 0)
+		(at 264.16 58.42 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6247,7 +6393,7 @@
 		(dnp no)
 		(uuid "9e3e8fce-050e-4d9a-9f75-f69108510b0d")
 		(property "Reference" "D3"
-			(at 266.7 52.07 0)
+			(at 264.16 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6255,7 +6401,7 @@
 			)
 		)
 		(property "Value" "SMBJ6.0A"
-			(at 266.7 54.61 0)
+			(at 264.16 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6263,7 +6409,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 266.446 69.088 0)
+			(at 263.906 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,7 +6418,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smbj-series-datasheet?assetguid=ba555e99-a12d-4f72-a0b6-86b06c67171e"
-			(at 265.43 66.294 0)
+			(at 262.89 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6281,7 +6427,7 @@
 			)
 		)
 		(property "Description" "Transient Voltage Supression diode for 6 V, directional"
-			(at 266.192 63.754 0)
+			(at 263.652 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +6436,7 @@
 			)
 		)
 		(property "Mouser" "SMBJ6.0A "
-			(at 266.7 58.42 0)
+			(at 264.16 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,7 +6445,7 @@
 			)
 		)
 		(property "Mosuer" ""
-			(at 266.7 58.42 0)
+			(at 264.16 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,7 +7098,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 260.35 63.5 0)
+		(at 257.81 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6961,7 +7107,7 @@
 		(fields_autoplaced yes)
 		(uuid "c57c1ed1-a03f-4414-a264-a4396605f82a")
 		(property "Reference" "#PWR027"
-			(at 260.35 69.85 0)
+			(at 257.81 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6970,7 +7116,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 68.58 0)
+			(at 257.81 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6979,7 +7125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 63.5 0)
+			(at 257.81 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6988,7 +7134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 63.5 0)
+			(at 257.81 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6997,7 +7143,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 63.5 0)
+			(at 257.81 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7012,112 +7158,6 @@
 			(project "Programmable_Power_Supply"
 				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/08e0899f-a16f-4153-ac59-52ecc79a00b8"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Szymon_Piorun_library:BSC050N03LS_G")
-		(at 175.26 69.85 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc3057e2-bf31-4a82-a2bf-ae3f9e3498c4")
-		(property "Reference" "Q3"
-			(at 181.61 71.1201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC050N03LS_G"
-			(at 181.61 68.5801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Szymon_Piorun_Library:Infineon_PG-TDSON-8_6.15x5.15mm"
-			(at 174.498 51.054 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsc050n03ls-ds-en.pdf?fileId=db3a304412b407950112b4276b953c2b"
-			(at 179.07 55.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "OptiMOS™3 Power-MOSFET"
-			(at 174.498 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "BSC030N03LS G "
-			(at 175.26 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mosuer" ""
-			(at 175.26 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "f9244608-be22-46e2-9a13-f9515f61a45e")
-		)
-		(pin "2"
-			(uuid "5bd39510-56cf-4915-b675-ee1ded37d5e6")
-		)
-		(pin "7"
-			(uuid "a4a2edf7-ca46-431f-a2fd-aa956de12a8c")
-		)
-		(pin "3"
-			(uuid "6f7108ca-c710-4470-8cae-fd671632d4ac")
-		)
-		(pin "8"
-			(uuid "e95a6fa6-29d0-495e-9990-9313601656b7")
-		)
-		(pin "5"
-			(uuid "f31615bf-9ce9-4fe3-8674-e784462505d5")
-		)
-		(pin "1"
-			(uuid "3d3fe3d0-7e51-4043-9749-94a2ddf29cbf")
-		)
-		(pin "4"
-			(uuid "66013bd7-4b5f-463f-a8d6-a75dc4e2e96f")
-		)
-		(instances
-			(project "Programmable_Power_Supply"
-				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/08e0899f-a16f-4153-ac59-52ecc79a00b8"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -7212,6 +7252,85 @@
 		)
 	)
 	(symbol
+		(lib_name "BSC050N03LS_G_1")
+		(lib_id "Szymon_Piorun_library:BSC050N03LS_G")
+		(at 175.26 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1d66b54-8cd0-48f7-bb9b-2513f0cfa171")
+		(property "Reference" "Q4"
+			(at 181.356 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC050N03LS_G"
+			(at 181.356 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Szymon_Piorun_Library:Infineon_PG-TDSON-8_6.15x5.15mm"
+			(at 174.498 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsc050n03ls-ds-en.pdf?fileId=db3a304412b407950112b4276b953c2b"
+			(at 179.07 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OptiMOS™3 Power-MOSFET"
+			(at 174.498 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9eeb6fb3-297f-45b6-9f33-8881d3fd740f")
+		)
+		(pin "1"
+			(uuid "9d47e015-69d3-470d-b74e-e5f19a04b722")
+		)
+		(pin "2"
+			(uuid "90478ac1-314f-4d1c-83d6-680927bd3533")
+		)
+		(pin "3"
+			(uuid "f41201ab-a255-4461-9a3d-179be25b4272")
+		)
+		(pin "4"
+			(uuid "b0b04921-bc99-4528-93b4-d8cdec93b0a6")
+		)
+		(instances
+			(project "Programmable_Power_Supply"
+				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/08e0899f-a16f-4153-ac59-52ecc79a00b8"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 64.77 96.52 0)
 		(unit 1)
@@ -7221,7 +7340,7 @@
 		(dnp no)
 		(uuid "d703f91c-77d5-4fbd-89c8-d020646746e3")
 		(property "Reference" "R12"
-			(at 71.12 96.52 90)
+			(at 68.326 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7229,7 +7348,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 68.58 96.52 90)
+			(at 68.326 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,6 +7562,94 @@
 			(project "Programmable_Power_Supply"
 				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/08e0899f-a16f-4153-ac59-52ecc79a00b8"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 99.06 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea1b604d-69e3-46da-88b6-2c99e83fcba9")
+		(property "Reference" "C26"
+			(at 102.87 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2u2"
+			(at 102.87 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 98.0948 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885382208016.pdf"
+			(at 99.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 99.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "885382208016 "
+			(at 99.06 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mosuer" ""
+			(at 99.06 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0542d182-a63b-41dc-8c91-d69fd185ee96")
+		)
+		(pin "2"
+			(uuid "ac9097a3-68c4-4196-9ed0-2a5d15a0a91c")
+		)
+		(instances
+			(project "Programmable_Power_Supply"
+				(path "/b54e5edd-9bd1-4c5e-a8c2-662f0aedeac0/08e0899f-a16f-4153-ac59-52ecc79a00b8"
+					(reference "C26")
 					(unit 1)
 				)
 			)
